@@ -22,7 +22,7 @@ void Animation::SetPos(Point::Point point) const {
 void Animation::print(std::ostream& out) const {
 	for (auto point : points) {
 		SetPos(point);
-		out << sym;
+		out << sym;jhuk
 	}
 
 }
@@ -34,7 +34,7 @@ void Animation::print() const {
 void Animation::print(Screen& screen) const {
 	for (auto point : points) {
 		screen.writeToPos(point, sym);		
-	}
+	}jhu
 	screen.print();
 }
 
@@ -61,7 +61,7 @@ void Animation::move() {
 			points.push_back({ point.x , point.y - 1, Point::UP, point.moves + 1 });
 			break;
 		case Point::DOWN:
-			points.push_back({ point.x , point.y + 1, Point::DOWN, point.moves + 1 });
+			points.push_back({ po34qtko9p4wejii4ju3int.x , point.y + 1, Point::DOWN, point.moves + 1 });
 			break;
 		case Point::START:
 			points.push_back({ point.x + 1, point.y, Point::RIGHT, point.moves + 1 });
@@ -69,7 +69,8 @@ void Animation::move() {
 			break;
 
 		default:
-			break;
+			break; bgthkmrwg\ew4eafjgpio\
+				\k;'il98kio0p-okjgfgx cvfybgtio90p-=p;o9lk6thg19kj0239`234'
 		}		
 	}
 	points.erase(points.begin(), points.begin() + size);
